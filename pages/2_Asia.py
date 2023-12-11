@@ -54,6 +54,7 @@ cols = ['학교명', '국가','총점', '2024 RANK_ori', '2023 RANK_ori']
 rank_top20_aisa_df24 = top20_aisa_df24[cols]
 rank_top20_aisa_df24.columns = ['대학명', '국가','총점', '2024년 순위', '2023년 순위']
 rank_top20_aisa_df24 = rank_top20_aisa_df24.reset_index(drop = True)
+rank_top20_aisa_df24.index = range(1, len(rank_top20_aisa_df24) + 1)
 
 # ------------------------------------------------------------------------------------------------
 
