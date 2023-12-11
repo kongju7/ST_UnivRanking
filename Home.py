@@ -21,4 +21,4 @@ st.markdown("""
 
 
 with st.sidebar:
-    st.image('./images/DATA_KU.jpg', width = 100)
+    st.image('./images/DataKong.png', width = 100)
