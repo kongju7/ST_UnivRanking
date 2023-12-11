@@ -69,8 +69,11 @@ com_top20_aisa_df24 = top20_aisa_df24[compare_cols].reset_index(drop = True)
 
 tab1, tab2, tab3 = st.tabs(["아시아 주요 대학 2023~24년 순위 변동", "총점 및 순위", "평가 지표별 점수"])
 with tab1:
-   st.plotly_chart(fig2_1, theme="streamlit", use_container_width=True)
+    st.markdown("###### [아시아 주요 대학 2023~24년 순위 변동]")
+    st.plotly_chart(fig2_1, theme="streamlit", use_container_width=True)
 with tab2:
+    st.markdown("###### [총점 및 순위]")
     st.dataframe(rank_top20_aisa_df24)
 with tab3:
+    st.markdown("###### [평가 지표별 점수]")
     st.dataframe(com_top20_aisa_df24)

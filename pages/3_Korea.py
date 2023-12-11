@@ -77,10 +77,14 @@ com_kor_df24 = kor_df24[compare_cols].reset_index(drop = True)
 
 tab1, tab2, tab3, tab4 = st.tabs(["국내 대학 분포 지도", "2023~24년 순위 변동", "총점 및 순위", "평가 지표별 점수"])
 with tab1:
+    st.markdown("###### [국내 대학 분포 지도]")
     st_data = st_folium(m, width = 500, height = 400)
 with tab2:
-   st.plotly_chart(fig3_2, theme="streamlit", use_container_width=True)
+    st.markdown("###### [2023~24년 순위 변동]")
+    st.plotly_chart(fig3_2, theme="streamlit", use_container_width=True)
 with tab3:
+    st.markdown("###### [총점 및 순위]")
     st.dataframe(rank_kor_df24)
 with tab4:
+    st.markdown("###### [평가 지표별 점수]")
     st.dataframe(com_kor_df24)

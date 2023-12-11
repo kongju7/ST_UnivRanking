@@ -102,6 +102,8 @@ result_df = pd.concat(univ_df, axis=1)
 
 tab1, tab2 = st.tabs(["아시아 주요 대학과의 평가 지표 점수 비교", "평가 지표별 점수 및 총점"])
 with tab1:
+    st.markdown("###### [아시아 주요 대학과의 평가 지표 점수 비교]")
     st.plotly_chart(fig4_1, theme=None, use_container_width=True)
 with tab2:
+    st.markdown("###### [평가 지표별 점수 및 총점]")
     st.dataframe(result_df.T)

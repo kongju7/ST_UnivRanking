@@ -92,11 +92,15 @@ com_df24 = top20_df24_with_korea[compare_cols].reset_index(drop = True)
 
 tab1, tab2, tab3, tab4 = st.tabs(["전세계 대학 분포 지도", "상위 20위권 국가", "주요 대학 2023~24년 순위 변동", "주요 대학 평가 지표별 점수 및 총점"])
 with tab1:
+    st.markdown("###### [전세계 대학 분포 지도]")
     st.plotly_chart(fig1_1, theme="streamlit", use_container_width=True)
 with tab2:
+    st.markdown("###### [상위 20위권 국가]")
     st.plotly_chart(fig1_2, theme="streamlit", use_container_width=True)
 with tab3:
+    st.markdown("###### [주요 대학 2023~24년 순위 변동]")
     st.plotly_chart(fig1_3, theme="streamlit", use_container_width=True)
 with tab4:
+    st.markdown("###### [주요 대학 평가 지표별 점수 및 총점]")
     st.dataframe(com_df24)
     
