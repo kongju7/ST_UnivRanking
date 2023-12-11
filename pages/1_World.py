@@ -86,7 +86,7 @@ fig1_3.update_traces(marker_line_color='black',
 compare_cols = ['학교명', '학계 평판', '고용주 평판', '교원 대비 학생 비율', '교원당 논문 피인용수', '외국인 교원 비율', 
              '외국인 학생 비율', '국제 연구 네트워크', '취업 성과', '지속가능성', '총점']
 com_df24 = top20_df24_with_korea[compare_cols].reset_index(drop = True)
-
+com_df24.index = range(1, len(com_df24) + 1)
 
 # ------------------------------------------------------------------------------------------------
 
