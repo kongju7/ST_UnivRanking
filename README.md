@@ -35,12 +35,12 @@
     - 웹 배포: Streamlit 라이브러리 활용
     - 사이트 바로가기: [qs2024.streamlit.app](https://qs2024.streamlit.app/) 
    
-<img src = "./images/1_World.png" width="50%" height="40%">
+<img src = "./images/1_World.png" width="60%" height="60%">
     
-<img src = "./images/2_Asia.png" width="50%" height="40%">
+<img src = "./images/2_Asia.png" width="60%" height="60%">
     
-<img src = "./images/3_Korea.png" width="50%" height="40%">
+<img src = "./images/3_Korea.png" width="60%" height="60%">
     
-<img src = "./images/4_KU.png" width="50%" height="40%">
+<img src = "./images/4_KU.png" width="60%" height="60%">
   
   
